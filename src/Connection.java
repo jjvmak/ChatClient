@@ -70,10 +70,10 @@ public class Connection {
 				System.out.println(msg);
 				GUI.appendMessage(msg);
 			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			
